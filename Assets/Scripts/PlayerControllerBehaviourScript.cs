@@ -63,8 +63,7 @@ public class PlayerControllerBehaviourScript : MonoBehaviour
 			body.constraints = RigidbodyConstraints.None;
 			if (!forceFall) {
 				forceFall = true;
-				body.AddForce (Vector3.forward * 30.0f * (currentLean > 0.0f ? 1.0f : -1.0f), ForceMode.Impulse);
-				body.AddForce (Vector3.up * -80.0f, ForceMode.Impulse);
+				body.AddExplosionForce (300.0f, transform.position - new Vector3(0.0f, 0.5f, 0.0f), 5.0f, 2.0f, ForceMode.Impulse);
 			}
 		}
 	}
