@@ -269,7 +269,7 @@ MonoBehaviour:
     stickToGroundHelperDistance: 0.6
     slowDownRate: 20
     airControl: 1
-    shellOffset: 0
+    shellOffset: 0.1
 --- !u!114 &114192636476009082
 MonoBehaviour:
   m_ObjectHideFlags: 1

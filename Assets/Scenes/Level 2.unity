@@ -4563,8 +4563,8 @@ Prefab:
       objectReference: {fileID: 9100000, guid: 47c0805d3b0fe4d408b146e1f058a5c1, type: 2}
     - target: {fileID: 114074018476636116, guid: 2e91dfb3c916b5a41afc4dc4dd31d407,
         type: 2}
-      propertyPath: advancedSettings.slowDownRate
-      value: 20
+      propertyPath: advancedSettings.shellOffset
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2e91dfb3c916b5a41afc4dc4dd31d407, type: 2}
